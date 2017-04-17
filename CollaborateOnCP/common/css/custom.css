@@ -1,0 +1,236 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2016, 10:41:30 AM
+    Author     : Vinoth Sudarsanam
+*/
+
+.no-padding{
+    padding: 0px !important;
+}
+.no-margin{
+    margin: 0px !important;
+}
+
+.padding-left-0{
+    padding-left: 0px
+}
+.padding-right-0{
+    padding-right: 0px
+}
+.padding-left-5{
+    padding-left: 5px
+}
+.padding-right-5{
+    padding-right: 5px
+}
+.padding-top-5{
+    padding-top: 5px
+}
+.padding-bottom-5{
+    padding-bottom: 5px
+}
+
+.padding-left-10{
+    padding-left: 10px
+}
+.padding-right-10{
+    padding-right: 10px
+}
+.padding-top-10{
+    padding-top: 10px
+}
+.padding-bottom-10{
+    padding-bottom: 10px
+}
+
+.padding-left-15{
+    padding-left: 15px
+}
+.padding-right-15{
+    padding-right: 15px
+}
+.padding-top-15{
+    padding-top: 15px
+}
+.padding-bottom-15{
+    padding-bottom: 15px
+}
+.padding-top-30{
+   padding-top: 30px !important;
+}
+.padding-left-20{
+    padding-left: 20px !important;
+}
+.padding-left-60{
+    padding-left: 60px !important;
+}
+.padding-right-20{
+    padding-right: 20px
+}
+.padding-top-20{
+    padding-top: 20px
+}
+.padding-bottom-20{
+    padding-bottom: 20px
+}
+.padding-top-40{
+    padding-top: 40px
+}
+/*Margin Styles Start*/
+
+.margin-0{
+    margin: 0px;
+}
+.margin_top_bottom{
+    margin: 30px 0;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.margin-right-15{
+    margin-right: 15px;
+}
+.margin-left-15{
+    margin-left: 15px;
+}
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+.margin-bottom-30{
+   margin-bottom:30px;
+}
+
+.margin_top_60{
+     margin-top: 60px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.margin-top-40{
+    margin-top: 40px;
+}
+.width-40{
+ width: 40% !important;   
+}
+.width-60{
+ width: 60% !important;   
+}
+.width-15{
+ width: 15% !important;   
+}
+.width-85{
+ width: 85% !important;   
+}
+
+.menu-dot{
+    float: left !important;
+    padding-left: 0px !important;
+    width: 10px !important;
+    font-size: 43px;
+    margin-left: -25px;
+    color: white;
+    line-height: 0;
+    margin-top: -5px;
+}
+.nav.nav-third-level li a:hover .menu-dot,
+.nav.nav-third-level li a:focus .menu-dot{
+   color: #2fb357; 
+}
+
+.success-notification-popup .modal-backdrop {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: rgba(0, 0, 0, 0.38) !important;
+}
+.slimscroll{
+    width: 100%;
+    float: left;
+    overflow-x: hidden;
+}
+/*check box style start*/
+.checkbox {
+    padding-left: 20px; 
+}
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    color: #58595b;
+    font-weight: 400;
+     min-height:0px;
+}
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    background-color: #d0d2d3;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out; 
+    outline:none;
+    color:#fff;
+    font-family: 'ionicons';
+    content: "\f3fd"; 
+    font-size:22px;
+    line-height:15px;
+    text-align:center;
+}
+.checkbox input[type="checkbox"] {
+    opacity: 0; 
+    outline:none;
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; 
+    outline:none;
+}
+.checkbox input[type="checkbox"]:checked + label::after {
+    font-family: 'ionicons';
+/*    content: "\f3fd";*/
+    outline:none;
+}
+.checkbox input[type="checkbox"]:checked + label:focus {
+    outline:none;
+}
+.checkbox input[type="checkbox"]:disabled + label {
+    opacity: 0.65; 
+    outline:none;
+}
+.checkbox input[type="checkbox"]:disabled + label::before {
+    background-color: #eeeeee;
+    cursor: not-allowed; 
+    outline:none;
+}
+.checkbox.checkbox-circle label::before {
+    border-radius: 50%; 
+}
+.checkbox.checkbox-inline {
+    margin-top: 0; 
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::before {
+    background-color: #5cb85c;
+    border-color: #5cb85c; 
+    outline:none;
+}
+.checkbox-success input[type="checkbox"]:checked + label::after {
+    color: #fff; 
+    outline:none;
+}
+/*check box style end*/
