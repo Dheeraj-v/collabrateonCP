@@ -1,0 +1,34 @@
+<ion-view view-title="NewTask" >
+  <ion-content class="padding">
+      <section class="wrapper">
+<div class="list">
+  <label class="item item-input item-stacked-label ">
+    <span class="input-label">Client Name</span>
+    <input type="text" placeholder="Enter client name" name="clientname" ng-model ="tasks.client_name">
+    
+  </label>
+  <label class="item item-input item-select item-dark">
+    <div class="input-label">
+      New Task
+    </div><br>
+    <select ng-model = "taskname" ng-change="taskchange(taskname)">
+    <option selected="selected" value ="">select task</option>
+      <option value ="logo design">logo design</option>
+      <option value ="Editing">Editing</option>
+      <option value ="photo shoot">photo shoot</option>
+    </select>
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Estimation</span>
+    <input type="text" placeholder="Enter Estimation" ng-model ="tasks.estimation">
+  </label>
+</div>
+<p class="field_wrapper">
+
+<button class="button button-full button-positive" ng-click="addtask()">
+  Add Task
+</button>
+</p>
+  </section>
+  </ion-content>
+</ion-view>
